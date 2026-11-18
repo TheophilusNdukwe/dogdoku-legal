@@ -18,7 +18,7 @@
 <body>
 <main>
   <h1>Dogdoku Privacy Policy</h1>
-  <p class="meta">Effective date: 17 November 2026. Last updated: 17 November 2026.</p>
+  <p class="meta">Effective date: 17 November 2026. Last updated: 18 November 2026.</p>
 
   <p>Dogdoku (“the app”) is a casual Sudoku game published by <strong>Theophilus Ndukwe</strong> (“we”, “us”). This policy explains what information the app may collect and how it is used. It applies to the iOS and Android versions of Dogdoku.</p>
 
@@ -29,10 +29,17 @@
   <p>Optional coin packs and the Remove Ads product are processed by Apple through the App Store (StoreKit / Unity IAP) or by Google through Google Play billing (Unity IAP). We do not collect or store your credit-card number, security code, or full account password. The stores tell the app whether a product was purchased or restored so we can grant coins or Remove Ads. Receipt validation, if enabled in a later version, may send a purchase receipt to a server we operate or to a validation service solely to confirm the purchase is genuine.</p>
 
   <h2>Advertising</h2>
-  <p>If you have not purchased Remove Ads, the app may show banner, interstitial, and rewarded ads through <strong>AppLovin MAX</strong> and its advertising partners. Those partners may collect device identifiers (such as the advertising ID), device information (for example device type, operating system, and IP address), and ad interaction data in order to serve, measure, and personalize ads, subject to your platform’s advertising and tracking settings. You can limit ad tracking in your device settings. Purchasing Remove Ads turns off ads in the app; it does not retroactively delete data already collected by ad partners.</p>
+  <p>If you have not purchased Remove Ads, the app shows banner, interstitial, and rewarded ads through <strong>AppLovin MAX</strong> and the advertising networks it works with. The AppLovin SDK and those partners may collect the following, linked to your device:</p>
+  <ul>
+    <li><strong>Device identifiers:</strong> the advertising ID (IDFA on iOS, only if you allow tracking; Google advertising ID on Android) and the vendor or app-set ID.</li>
+    <li><strong>Device information:</strong> device model, operating system and version, language, carrier, screen size, and IP address, which may be used to estimate your approximate (city-level) location.</li>
+    <li><strong>Usage data:</strong> app sessions and how you interact with ads, such as impressions, clicks, and rewarded ad completions.</li>
+    <li><strong>Diagnostics:</strong> crash, error, and performance data from the ad SDK, used to keep ads working.</li>
+  </ul>
+  <p>This data is used to serve, measure, cap, and personalize ads, to prevent ad fraud, and to fix ad problems. On iOS, the app asks your permission through Apple’s App Tracking Transparency prompt before the advertising ID is used for tracking across other companies’ apps and websites. If you choose “Ask App Not to Track,” you still get ads, but they are not personalized using the IDFA. On Android, you can reset or delete your advertising ID in your device settings. We do not sell your personal information. See <a href="https://www.applovin.com/privacy/">AppLovin’s privacy policy</a> for how AppLovin handles this data. Purchasing Remove Ads turns off banner and interstitial ads; rewarded ads remain optional. Removing ads does not delete data ad partners have already collected.</p>
 
   <h2>Analytics and diagnostics</h2>
-  <p>The current build uses only a local debug log sink unless a later release adds a third-party analytics or crash tool. If we add one, we will update this policy and name the provider. We may also receive anonymous store sales and crash reports from Apple and Google.</p>
+  <p>Dogdoku itself does not include a separate analytics or crash-reporting service. The only usage and diagnostic data collected comes from the AppLovin advertising SDK described above, plus anonymous sales, install, and crash reports that Apple and Google provide to developers through their stores. If we add an analytics or crash tool later, we will update this policy and name the provider.</p>
 
   <h2>Children</h2>
   <p>Dogdoku is a general-audience puzzle game. It is not directed at children under 13 (or the equivalent age in your country). We do not knowingly collect personal information from children. If you believe a child has provided personal information through the app or an ad partner, contact us and we will take reasonable steps to delete it.</p>
@@ -41,7 +48,8 @@
   <ul>
     <li>Turn sound and music off in Settings.</li>
     <li>Restore purchases from Settings or the Shop (required on iOS).</li>
-    <li>Buy Remove Ads to stop ads in the app.</li>
+    <li>Buy Remove Ads to stop banner and interstitial ads in the app.</li>
+    <li>On iOS, allow or deny tracking from the App Tracking Transparency prompt, or later in Settings &gt; Privacy &amp; Security &gt; Tracking.</li>
     <li>Reset or delete local progress from the app or by uninstalling it (this does not cancel a store purchase).</li>
     <li>Use your device settings to reset or limit the advertising ID.</li>
   </ul>
